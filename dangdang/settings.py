@@ -80,11 +80,8 @@ WSGI_APPLICATION = 'dangdang.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'dangdang',
-        'USER': 'root',
-        'PASSWORD': '123456',
-        'HOST': '127.0.0.1',
-        'PORT': 3306,
+        'NAME': '',
+        
     }
 }
 
@@ -142,6 +139,3 @@ SESSION_SERIALIZER = 'django.contrib.sessions.serializers.PickleSerializer'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.qq.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = '1361550064@qq.com'
-EMAIL_HOST_PASSWORD = 'afdldvuzbnengjdd'
-DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
